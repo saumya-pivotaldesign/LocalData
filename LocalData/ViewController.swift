@@ -34,6 +34,7 @@ class ViewController: UIViewController {
 extension ViewController {
     @IBAction func onSaveLocal(sender:AnyObject){
         // NSUserDefaults
+        // Its lost once the application is deleted from the phone.
         
         print("onSaveLocal:NSUserDefaults:  ==========")
         
