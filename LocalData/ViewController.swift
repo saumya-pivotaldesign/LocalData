@@ -65,8 +65,13 @@ extension ViewController {
         print("onGetLocal:NSUserDefaults: /======== ")
     }
     
+    // Ref: Keychain for App Uninstall : https://blog.onliquid.com/persistent-device-unique-identifier-ios-keychain/
+    //
     @IBAction func onKeyChainSave(sender:AnyObject){
         print("onKeyChainSave")
+        // NSUUID is available from iOS 6 and up
+        let a = NSUUID().UUIDString
+        print(a)
     }
     @IBAction func onKeyChainGet(sender:AnyObject){
         print("onKeyChainGet")
