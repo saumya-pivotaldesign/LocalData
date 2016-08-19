@@ -64,6 +64,13 @@ extension ViewController {
         
         print("onGetLocal:NSUserDefaults: /======== ")
     }
+    
+    @IBAction func onKeyChainSave(sender:AnyObject){
+        print("onKeyChainSave")
+    }
+    @IBAction func onKeyChainGet(sender:AnyObject){
+        print("onKeyChainGet")
+    }
 }
 
 

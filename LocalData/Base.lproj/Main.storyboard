@@ -54,15 +54,57 @@
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KeyChain Store" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fm4-8O-B81">
+                                <rect key="frame" x="20" y="86" width="560" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="4ZZ-vf-vmc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c0U-Nk-Oe2">
+                                <rect key="frame" x="20" y="115" width="100" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="OZG-HA-dBg"/>
+                                    <constraint firstAttribute="width" constant="100" id="zrd-cn-OES"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="onKeyChainSave:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Or-ot-YmT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tP8-Np-hAa">
+                                <rect key="frame" x="146" y="115" width="100" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="EiR-xh-3Ia"/>
+                                    <constraint firstAttribute="width" constant="100" id="WGz-rZ-qHw"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Get"/>
+                                <connections>
+                                    <action selector="onKeyChainGet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cbu-v6-2ZO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="qYi-vv-Bia" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="12" id="Ew8-70-TRc"/>
                             <constraint firstItem="qYi-vv-Bia" firstAttribute="leading" secondItem="AZm-Ay-Tkd" secondAttribute="trailing" constant="40" id="KL6-jq-jD9"/>
+                            <constraint firstItem="Fm4-8O-B81" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Qem-4i-eap"/>
+                            <constraint firstItem="Fm4-8O-B81" firstAttribute="top" secondItem="gF3-BY-w8O" secondAttribute="bottom" constant="28" id="WXk-kw-qCV"/>
+                            <constraint firstItem="tP8-Np-hAa" firstAttribute="leading" secondItem="c0U-Nk-Oe2" secondAttribute="trailing" constant="26" id="ZS8-WV-nat"/>
+                            <constraint firstItem="tP8-Np-hAa" firstAttribute="top" secondItem="Fm4-8O-B81" secondAttribute="bottom" constant="8" id="am9-bM-Koi"/>
                             <constraint firstItem="gF3-BY-w8O" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="cvK-KM-LyW"/>
                             <constraint firstItem="gF3-BY-w8O" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="dUh-4P-S1d"/>
                             <constraint firstItem="AZm-Ay-Tkd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="dai-bb-om0"/>
                             <constraint firstItem="AZm-Ay-Tkd" firstAttribute="leading" secondItem="gF3-BY-w8O" secondAttribute="trailing" constant="26" id="dy8-ds-K4r"/>
+                            <constraint firstItem="c0U-Nk-Oe2" firstAttribute="top" secondItem="Fm4-8O-B81" secondAttribute="bottom" constant="8" id="sLQ-JZ-hNK"/>
+                            <constraint firstItem="c0U-Nk-Oe2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="tBX-AT-sEZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Fm4-8O-B81" secondAttribute="trailing" id="tFb-we-jZI"/>
                         </constraints>
                     </view>
                 </viewController>
