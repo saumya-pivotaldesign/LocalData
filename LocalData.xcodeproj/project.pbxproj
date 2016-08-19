@@ -57,8 +57,8 @@
 				AE2AEE9F1D66D96A00900D9E /* AppDelegate.swift */,
 				AE2AEEA11D66D96A00900D9E /* ViewController.swift */,
 				AE2AEEA31D66D96A00900D9E /* Main.storyboard */,
-				AE2AEEA61D66D96A00900D9E /* Assets.xcassets */,
 				AE2AEEA81D66D96A00900D9E /* LaunchScreen.storyboard */,
+				AE2AEEA61D66D96A00900D9E /* Assets.xcassets */,
 				AE2AEEAB1D66D96A00900D9E /* Info.plist */,
 			);
 			path = LocalData;
@@ -286,6 +286,7 @@
 				AE2AEEB01D66D96A00900D9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
